@@ -1,0 +1,16 @@
+# requirements.txt — BME1322 Assignment 1（广义五子棋）
+#
+# 本作业的实现**完全使用 Python 标准库**，没有任何第三方依赖，
+# 因此本文件为空。裁判程序与游戏程序在干净的 Python 3.8+ 环境下
+# 无需 pip install 即可直接运行。
+#
+# 实现中实际使用的标准库模块：
+#   argparse, importlib.util, math, os, queue, random, statistics, sys,
+#   threading, time, tkinter, typing, unittest
+#
+# 说明：
+#   * tkinter 用于图形界面（gui.py / main.py）。它是 CPython 官方发行版
+#     自带的模块；若在 Linux 上缺少，可安装系统包 python3-tk，
+#     或改用命令行入口 python main_cli.py（功能完全一致）。
+#   * 未使用 numpy：核心搜索依赖纯 Python 的整数运算与列表索引，
+#     引入 numpy 反而会在小规模局面下增加调用开销。
