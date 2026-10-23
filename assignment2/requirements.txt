@@ -1,0 +1,6 @@
+# Core dependency: the two models are implemented with NumPy only.
+numpy>=1.20
+
+# Only needed by main.py to draw the figures in figures/.
+# `python main.py --no-figures` works without matplotlib.
+matplotlib>=3.5
